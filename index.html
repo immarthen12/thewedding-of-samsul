@@ -22,6 +22,12 @@
     <link rel="stylesheet" href="countdown/default.min.css" />
     <script src="countdown/simplyCountdown.umd.js"></script>
 
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -38,6 +44,272 @@
       </main>
     </section>
 
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Samda</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Samda</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#story">Story</a>
+              <a class="nav-link" href="#galery">Galery</a>
+              <a class="nav-link" href="#RSVP">RSVP</a>
+              <a class="nav-link" href="#gift">Gift</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Pernikahan</h2>
+            <h3>Diselenggarakan 25 Oktober 2025 di Bogor, Jawa Barat</h3>
+            <p>
+              Oleh karena itu, dengan segala hormat, kami bermaksud mengundang
+              Bapak/Ibu, Saudara/i, untuk hadir pada acara pernikahan kami.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row couple">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-8 text-end">
+              <h3>Samsul Anwar S.T</h3>
+              <p>
+                Seorang pria yang baru saja menamatkan kuliahnya dan ingin
+                segera menghalalkan pasangannya.
+              </p>
+              <p>
+                Putra dari Bpk. Hamdan <br />
+                dan <br />Ibu Kartini
+              </p>
+            </div>
+            <div class="col-4">
+              <img
+                src="img/samsul1.jpg"
+                alt="Samsul Anwar"
+                class="img-responsive rounded-circle"
+              />
+            </div>
+          </div>
+        </div>
+
+        <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-4">
+              <img
+                src="img/dinda1.jpg"
+                alt="Dinda Tazqia"
+                class="img-responsive rounded-circle"
+              />
+            </div>
+            <div class="col-8">
+              <h3>Dinda Deviana Tazqia S.M</h3>
+              <p>
+                Seorang wanita yang menunggu untuk segera dihalalkan oleh
+                kekasih kesayangannya.
+              </p>
+              <p>
+                Putri dari Bpk. Abdul <br />
+                dan <br />Ibu Maimunah
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="conatiner">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">
+              Alamat: Braja Mustika Hotel<br />Jl. DR. Sumeru komplek Ruko
+              No.23, Menteng, Kec. Bogor Barat, Kota Bogor
+            </p>
+            <a
+              href="https://maps.app.goo.gl/EGqC8LDL5UqohYqdA"
+              target="_blank"
+              class="btn btn-light btn-sm my-3"
+              >Klik untuk membuka peta</a
+            >
+            <p class="description">
+              Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di
+              tujuan namun tidak ada tanda-tanda sedang dilangsungkan
+              pernikahan, bisa jadi Anda salah jadwal, atau salah tempat.
+            </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">Akad Nikah</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>08:00-10:00</span>
+                  </div>
+                  <div class="col md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Sabtu, 25 Oktober 2025</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akan berlangsung diharapkan untuk menjaga kekhidmatan
+                dan kekhusyuan seluruh prosesi.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Resepsi</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>11:00-selesai</span>
+                  </div>
+                  <div class="col md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Sabtu, 25 Oktober 2025</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akan berlangsung diharapkan untuk menjaga kekhidmatan
+                dan kekhusyuan seluruh prosesi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="co-md-8 col-10 text-center">
+            <span>Awal Mula Kisah Percintaan Kami</span>
+            <h2>"Our Story"</h2>
+            <p>Putus Nyambung Berujung di Pernikahan Kita</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div
+                  class="timeline-image"
+                  style="background-image: url(img/almunawwir.jpg)"
+                ></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Awal Pertemuan</h3>
+                    <span>17 Juli 2019</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Semua bermula pada 17 Juli 2019 di Pesantren Al-Munawwir,
+                      Bogor. Dari sekadar tatap-tatapan dan obrolan singkat,
+                      entah kenapa rasa itu perlahan muncul. Namun, perjalanan
+                      ini nggak semulus jalan tol. Ada masa putus-nyambung yang
+                      bikin temen-temen ikut gregetan, sampai ada yang bilang
+                      “kalian tuh kayak sinetron, tiap episode penuh plot
+                      twist”😁. Tapi justru dari situlah kami belajar arti
+                      kesabaran, saling memahami, dan menghargai satu sama lain.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div
+                  class="timeline-image"
+                  style="background-image: url(img/graduation.jpg)"
+                ></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Mulai Serius</h3>
+                    <span>25 Juli 2025</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Sampai akhirnya, di tengah semua lika-liku itu, kami sadar
+                      bahwa setiap perpisahan justru membuat kami semakin sulit
+                      untuk benar-benar meninggalkan. Setelah lulus kuliah, kami
+                      semakin yakin bahwa hubungan ini layak diperjuangkan dan
+                      dibawa ke arah yang lebih serius.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="timeline-image"
+                  style="background-image: url(img/tunangn.jpg)"
+                ></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Tunangan</h3>
+                    <span>25 Agustus 2025</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Dengan doa dan restu keluarga, kami pun memantapkan
+                      langkah menuju pertunangan pada 25 Agustus 2025. Hari itu
+                      menjadi momen penuh haru sekaligus bahagia, karena
+                      perjalanan panjang yang penuh cerita akhirnya berlabuh
+                      pada sebuah ikatan yang lebih resmi. Bukan lagi sekadar
+                      kisah putus-nyambung ala drama, melainkan awal dari
+                      komitmen yang nyata. Dan setelah tunangan, kami pun
+                      bersama keluarga sepakat menentukan tanggal pernikahan,
+                      yaitu 25 Oktober 2025, hari yang InsyaAllah akan menjadi
+                      awal baru dalam kehidupan kami.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
@@ -47,7 +319,7 @@
     <script>
       simplyCountdown(".simply-countdown", {
         year: 2025, // Target year (required)
-        month: 11, // Target month [1-12] (required)
+        month: 10, // Target month [1-12] (required)
         day: 25, // Target day [1-31] (required)
         hours: 8, // Target hour [0-23], default: 0
         minutes: 0, // Target minute [0-59], default: 0
