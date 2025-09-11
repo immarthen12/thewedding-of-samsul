@@ -511,6 +511,10 @@ footer li {
     font-size: 40%;
   }
 
+  body {
+    overflow-x: hidden;
+  }
+
   .simply-countdown > .simply-section {
     padding: 20px;
     margin: 3px;
@@ -534,3 +538,4 @@ footer li {
     top: 80px;
   }
 }
+
