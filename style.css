@@ -300,7 +300,7 @@ a.btn:hover {
   border: 1px solid #ccc;
   padding: 2rem;
   position: relative;
-  border-radius: 80px;
+  border-radius: 30px;
   background-color: #fff;
 }
 
@@ -534,4 +534,3 @@ footer li {
     top: 80px;
   }
 }
-
