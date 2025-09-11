@@ -508,28 +508,30 @@ footer li {
 /* Mobile Phone */
 @media (max-width: 576px) {
   html {
-    font-size: 60%;
+    font-size: 40%;
   }
 
   .simply-countdown > .simply-section {
-    padding: 45px;
+    padding: 20px;
     margin: 3px;
   }
 
   .timeline li .timeline-image {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
   }
 
   .timeline li .timeline-panel {
-    width: 65%;
+    width: 45%;
     transform: translateX(-20px);
   }
 
   .timeline li .timeline-panel::before {
-    top: 30px;
+    top: 40px;
+    padding: -10;
   }
   .timeline li .timeline-panel::before {
-    top: 31px;
+    top: 80px;
   }
 }
+
