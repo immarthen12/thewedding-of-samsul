@@ -523,6 +523,14 @@ footer li {
     overflow-x: hidden;
   }
 
+  .offcanvas {
+  width: 200px !important; /* ubah ukuran lebar sidebar */
+  max-width: 80%;
+  background-color: rgba(255, 255, 255, 0.6) !important;
+  backdrop-filter: blur(4px);
+  justify-content: right;
+  }
+
   .mynavbar .navbar-nav {
     align-items: center;
     text-align: center;
@@ -551,3 +559,4 @@ footer li {
     top: 80px;
   }
 }
+
