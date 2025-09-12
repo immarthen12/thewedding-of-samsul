@@ -84,6 +84,13 @@ a.btn:hover {
   height: 100vh;
 }
 
+.mynavbar .navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
 .mynavbar .navbar-brand,
 .mynavbar .offcanvas-title {
   font-family: "Sacramento", cursive;
@@ -408,6 +415,7 @@ footer li {
   justify-content: center;
   align-items: center;
   line-height: 0;
+  background-color: red;
 }
 
 @keyframes rotating {
@@ -515,6 +523,11 @@ footer li {
     overflow-x: hidden;
   }
 
+  .mynavbar .navbar-nav {
+    align-items: center;
+    text-align: center;
+  }
+
   .simply-countdown > .simply-section {
     padding: 20px;
     margin: 3px;
@@ -538,4 +551,3 @@ footer li {
     top: 80px;
   }
 }
-
