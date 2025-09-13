@@ -86,7 +86,7 @@ a.btn:hover {
 
 .mynavbar .navbar-nav {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   width: 100%;
 }
 
@@ -415,7 +415,6 @@ footer li {
   justify-content: center;
   align-items: center;
   line-height: 0;
-  background-color: red;
 }
 
 @keyframes rotating {
@@ -524,16 +523,11 @@ footer li {
   }
 
   .offcanvas {
-  width: 200px !important; /* ubah ukuran lebar sidebar */
+  width: 50% !important; /* ubah ukuran lebar sidebar */
   max-width: 80%;
   background-color: rgba(255, 255, 255, 0.6) !important;
   backdrop-filter: blur(4px);
   justify-content: left;
-  }
-
-  .mynavbar .navbar-nav {
-    align-items: center;
-    text-align: center;
   }
 
   .simply-countdown > .simply-section {
@@ -559,5 +553,3 @@ footer li {
     top: 80px;
   }
 }
-
-
