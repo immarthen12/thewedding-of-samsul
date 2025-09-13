@@ -7,7 +7,7 @@
 body {
   font-size: 1.2rem;
   font-family: "Work Sans", sans-serif;
-  min-height: 4000px;
+  min-height: 100vh;
   overflow-x: hidden;
 }
 
@@ -33,7 +33,7 @@ body {
 .hero h1,
 .hero h4,
 .hero p {
-  text-shadow: var(---shadow);
+  text-shadow: var(--shadow);
 }
 
 .hero h1 {
@@ -58,7 +58,7 @@ body {
   border-radius: 8px;
   text-decoration: none;
   transition: 0.3s;
-  box-shadow: var(---shadow);
+  box-shadow: var(--shadow);
 }
 
 a.btn:hover {
@@ -428,7 +428,7 @@ footer li {
 }
 /* Media Query */
 /* Extra Large */
-@media (max-width: 1200) {
+@media (max-width: 1200px) {
   .home .heart {
     transform: translateX(-50%) translateY(45px);
   }
@@ -470,7 +470,7 @@ footer li {
   }
 
   .timeline li .timeline-panel {
-    width: calc((100%-200px));
+    width: calc((100% - 200px));
     float: right;
   }
 
@@ -520,6 +520,9 @@ footer li {
 
   body {
     overflow-x: hidden;
+    min-height: 100vh;   /* ganti dari 4000px */
+    margin: 0;
+    padding: 0;
   }
 
   .offcanvas {
