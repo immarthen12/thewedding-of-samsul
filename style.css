@@ -531,6 +531,7 @@ footer li {
   background-color: rgba(255, 255, 255, 0.6) !important;
   backdrop-filter: blur(4px);
   justify-content: left;
+  overflow-x: hidden;
   }
 
   .simply-countdown > .simply-section {
@@ -556,3 +557,4 @@ footer li {
     top: 80px;
   }
 }
+
